@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div id="divprincipal">
+        <div class="container">
+            <nav id="nav">
+                <div class="logo">
+                    <span><a href="home.html"><img class="logo" src="Imagens/logoosascobranco.png" alt="Icon Cidade"></a></span>
+                </div>
+
+                <ul class="listamenu">
+                    <li class="limenu"><a href="home.html">Home</a></li>
+                    <li class="limenu"><a href="Comércio.html">Comércios</a></li>
+                    <li class="limenu"><a href="Dados.html">Dados</a></li>
+                    <li class="limenu"><a href="Habitação.html">Habitação</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <h1 id="tituloprincipal">Bairro Jd. Conceição</h1>
+
+        <div id="container-h" >
+            <h2 class="titulo"><p>História</p></h2>
+            <div id="conteudo-h">                
+                <p id="texto-h">Foi na década de 80, onde o deputado da cidade de Osasco, <a href="https://www.camara.leg.br/deputados/73534/biografia" target="_blank">João Paulo Cunha</a>, decidiu investir na região que como ele dizia "era só mato", e então se foi criando moradias para a população osasquense.</p>
+            </div>
+            <div><img id="imagem-h" src="Imagens/imagehome.jpg" alt=""></div>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="container-l">
+            <h2 class="titulo">Localização</h2>
+
+            <div id="mapa-l"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14626.953203569174!2d-46.8086171302246!3d-23.577840700000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce556f7a5e7a97%3A0xcb9a6268712893ce!2sConceicao%2C%20Osasco%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1662736091359!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>  
+            
+
+            <section id="section-localização">                
+                <h3 id="subtitulo-l">Principal Rua e Avenida</h3>
+                <div id="articles-l" style="display: flex; justify-content: center; align-items: center;">
+                    <article class="article-l" style="display: flex; justify-content: center; align-items: center;">
+                        <img class="imagens-l" src="Imagens/agostinhonavarro.png" alt="Avenida Agostinho Navarro">
+                        <div class="principais-ruas">
+                            <p class="nomedarua-l">Avenida Agostinho Navarro</p>
+                            <p class="texto-l">A Av. Agostinho Navarro, é a maior avenida que o bairro Jd. Conceição tem. Ela passa por diversas casa, cerca de 3 condomínios de moradias e alguns comércios, como mercados, casa de ração e lojas de roupas.</p>
+                        </div>
+                    </article>
+                    <article class="article-l" style="display: flex; justify-content: center; align-items: center;">
+                        <img class="imagens-l" class="imagem-l"  src="Imagens/pernanbucanas.png" alt="Rua Pernanbucana">
+                        <div class="principais-ruas"> 
+                            <p class="nomedarua-l" >Rua Pernanbucana</p>
+                            <p class="texto-l">A Rua Pernanbucana, é a maior rua que o bairro Jd. Conceição tem. Nela é possível encontrar uma grande variedade de comércios. De forma resulmida, a Rua Pernanbucana é o "centro comercial do bairro".</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="teste">
+                    <div class="teste2"></div>
+                </div>
+                <div class="teste">
+                    <div class="teste2"></div>
+                </div>
+            </section>
+
+        </div> 
+
+        <div class="container-form">
+            <div><img src="Imagens2/setaparacima.png" alt="Open Formulario" width="40px"></div>
+            <hr>
+            <div class="div-forms">
+                <p>Inscreva-se para recber novidades do nosso bairro!</p>
+                <form action="#" id="forms-form">
+                    <table class="tabela-form">
+                        <tr>
+                            <td><label for="nome">Usuário: </label></td>
+                            <td><input type="text" name="nome" id="fnome" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-mail: </label></td>
+                            <td><input type="email" name="email" id="femail" placeholder="exemplo@gmail.com" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="cpf">CPF:</label></td>
+                            <td><input type="numerec" name="cpf" id="fcpf" maxlength="11" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="tel">Telefone</label></td>
+                            <td><input type="tel" name="tel" id="ftel" maxlength="11" placeholder="55+ (XX) 11111-1111" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="senha">Senha</label></td>
+                            <td><input type="password" name="senha" id="fsenha" maxlength="8" placeholder="Senha com até 8 dígitos" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="nascimento">Data de nascimento</label></td>
+                            <td><input type="date" name="nascimento" id="nascimento" max="1900.01.01" min="2200.01.01" required></td>
+                        </tr>
+                        <tr>
+                            <td>Aceita os termos?</td>
+                            <td>
+                                <input type="radio" name="termos" id="termos" value="t">
+                                <label for="mensalid" required>Li e concordo</label>
+                            </td>
+                        </tr>
+                    </table> 
+                    <input type="submit" value="Enviar">            
+                </form>
+            </div>
+        </div>
+
+        <footer>            
+            <div>
+                <a href="home.html">Home</a>
+                <a href="Comércio.html">Comércios</a>
+                <a href="Dados.html">Dados</a>
+                <a href="Habitação.html">Habitação</a>
+            </div>
+
+            <div>
+                <p>Site feito por <a href="mailto: hellen.martins@germinare.org.br" target="_blank">Hellen Matos Martins</a></p>
+                Acesse o Instagram da criadora do site
+                <a href="https://www.instagram.com/_.hellenmatos/" target="_blank"><img src="Imagens2/instagram.png" alt="Instagram" width="30px"></a>    
+            </div>
+        </footer>
+
+        
+
+
+        
+
+    </div>
+</body>
+</html>
